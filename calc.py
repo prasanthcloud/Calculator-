@@ -2,7 +2,7 @@
     
 def addition(num1,num2):
     return num1 +  num2
-def subraction(num1,num2):
+def subtraction(num1,num2):
     return num1- num2
 def multiplication(num1,num2):
     return num1*num2
@@ -33,7 +33,7 @@ num2=int(input("Enter another number"))
 if oprt =='a':
     print("The sum is ", addition(num1,num2))
 elif oprt =='b':
-    print("The subration is ", subraction(num1,num2))
+    print("The subtration is ", subtraction(num1,num2))
 elif oprt =='c':
     print("The product is ", multiplication(num1,num2))
 elif oprt =='d':
